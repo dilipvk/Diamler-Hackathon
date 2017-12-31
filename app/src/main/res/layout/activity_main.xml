@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/CombinationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="33sp"
+        android:text="Combination Required."
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:layout_column="9"/>
+
+    <LinearLayout
+        android:id="@+id/input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="130dp"
+        android:layout_column="16"
+        android:paddingTop="160dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/password1"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:padding="7dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+            <ImageView
+                android:id="@+id/password2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:gravity="center_horizontal"
+                android:padding="7dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+            <ImageView
+                android:id="@+id/password3"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:gravity="center_horizontal"
+                android:padding="7dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/password4"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:clickable="true"
+                android:cropToPadding="true"
+                android:padding="7dp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/tableLayout"
+        android:paddingTop="190dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_span="4"
+                android:orientation="horizontal"
+                android:paddingLeft="45dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+
+                <ImageButton
+                android:id="@+id/imgae1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:cropToPadding="true" />
+                </FrameLayout>
+
+                <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp">
+                <ImageButton
+                    android:id="@+id/imgae2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center_horizontal"/>
+                </FrameLayout>
+
+                <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp">
+                <ImageButton
+                    android:id="@+id/imgae3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center_horizontal"/>
+                </FrameLayout>
+            </LinearLayout>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:layout_span="4"
+                android:paddingLeft="45dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+
+                    <ImageButton
+                        android:id="@+id/imgae4"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:clickable="true"
+                        android:cropToPadding="true" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+                    <ImageButton
+                        android:id="@+id/imgae5"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+                    <ImageButton
+                        android:id="@+id/imgae6"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal"/>
+                </FrameLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:layout_span="4"
+                android:paddingLeft="45dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+
+                    <ImageButton
+                        android:id="@+id/imgae7"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:clickable="true"
+                        android:cropToPadding="true" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+                    <ImageButton
+                        android:id="@+id/imgae8"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+                    <ImageButton
+                        android:id="@+id/imgae9"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal"/>
+                </FrameLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:layout_span="4"
+                android:paddingRight="9dp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp">
+                    <ImageButton
+                        android:id="@+id/clearCombination"
+                        android:layout_width="60dp"
+                        android:background="@color/grey"
+                        android:layout_height="60dp"
+                        android:gravity="center_horizontal"/>
+                </FrameLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpassword"
+        android:layout_alignParentBottom="true"
+        android:text="Forgot Password?"
+        android:textSize="20sp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="90dp" />
+
+</RelativeLayout>

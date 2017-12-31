@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+        <TextView
+            android:id="@+id/textDialog"
+            android:layout_width="150dp"
+            android:gravity="bottom"
+            android:layout_height="match_parent"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Enter Your Alternate Number :"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/alternatenumberet"
+            android:inputType="number"
+            android:layout_alignBottom="@+id/textDialog"
+            android:layout_toRightOf="@+id/textDialog"
+            android:layout_toEndOf="@+id/textDialog"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/DialogError"
+        android:layout_width="200dp"
+        android:gravity="bottom"
+        android:layout_height="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text=""/>
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/Okalternate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text=" Ok"
+        android:layout_below="@+id/textDialog"
+        />
+
+</LinearLayout>

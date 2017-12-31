@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\it.neokree\MaterialTabs\0.11\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fef6aa7ea0bb2d6adf10965d0a5bb8e353517bff">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-7508246947624ab5c1e5f4b0482aae837389168b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-8d87fcd9bec05ff31e363d400dfdfaf4a884479c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-b214951ffcd87731390e40418f7ed11c97411383.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.2.42\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-5aec9628e4098570cf4020a5048e7fcd51658df1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.ikimuhendis\ldrawer\0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d3bec8d72ee2aa86e69f66375c31f2161b7bb324">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-4db2efc0e0696d8cf97d94e80d415072797998e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.ToxicBakery.viewpager.transforms\view-pager-transforms\1.2.32\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-aafaa1797426c61eac850a595244561d4ac68d95.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-ef224b9643a2a9312089553863b4393e4509e9e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.github.traex.rippleeffect\library\1.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-05286f5f72f7cce83a03378abf301b8bb7be1ebe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\WhatsappLock\ParseLoginUI\unspecified\libs\ParseFacebookUtilsV4-1.9.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d0490b697e2ff12e81b214d17f166534dfd3bced">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\ParseFacebookUtilsV4-1.9.4-c50a378294422dce03b2f5433d77c2f80a5b3cd4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f7188fc9a524a8f965b5aeab74879036f0431080">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-b9bbd621a187be4a336faafce4d29b91b65cacbb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-7bd45a0fde776ec78cc198981d666ff61e2e622e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-b7917289fbab7a2fdba71c34f1a5b3294fe56bc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\ParseLoginUI\libs\Parse-1.9.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\Parse-1.9.4-9452d76b23060cb9fa72293129446a4b62480cc0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8bbb2889526f2ec6f670078c6863f8000a1fa480.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\WhatsappLock\ParseLoginUI\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5a890e75b2d2721fbc8f6c11eb4199cdfe06ee67">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-449fac4d78f96c475b8bd6062378286057cc9fb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\exploded-aar\com.github.markushi\android-ui\1.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="C:\Users\Avi\Desktop\dilip\WhatsappLock\app\build\intermediates\pre-dexed\debug\classes-39f9ded67992fc6b15801dfbfea231d79de13641.jar" />
+    </item>
+
+</items>

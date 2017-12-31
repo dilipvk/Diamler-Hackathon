@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textSize="17dp"
+                android:text="Name"/>
+            <EditText
+                android:id="@+id/SellCarName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textSize="17dp"
+                android:text="Address"/>
+            <EditText
+                android:id="@+id/SellCarAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textSize="17dp"
+                android:text="Contact Number"/>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/SellCarContact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="fill_parent"
+            android:background="@drawable/shape1"
+            android:gravity="center"
+            android:padding="7dp"
+            android:layout_height="100dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textSize="17dp"
+                android:text="Description About the Car"/>
+            <EditText
+                android:id="@+id/SellCarDescription"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/shape1"
+        android:gravity="center"
+        android:padding="7dp"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="17dp"
+            android:text="Condition Rating of Car"/>
+
+        <Spinner
+            android:id="@+id/rating_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+        <ImageButton
+            android:id="@+id/photo_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_photo" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send a Mail" />
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <com.parse.ParseImageView
+            android:id="@+id/meal_preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
